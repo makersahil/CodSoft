@@ -1,0 +1,155 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+header {
+  background: #3498db;
+  color: #fff;
+  padding: 2em 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 0.5em 0 1em;
+  font-size: 1.2em;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #ddd;
+}
+
+main {
+  padding: 2em 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 2em 0;
+  padding: 2em;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  color: #3498db;
+}
+
+#about .content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#about img {
+  border-radius: 50%;
+  margin: 1em;
+  max-width: 150px;
+}
+
+#about p {
+  flex: 1;
+  text-align: justify;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skills ul li {
+  background: #3498db;
+  color: #fff;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+#skills ul li:hover {
+  background: #2980b9;
+}
+
+#projects .project {
+  margin: 1em 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects .project img {
+  max-width: 600px;
+  margin: 1em;
+  border-radius: 8px;
+}
+
+#projects .project h3 {
+  flex: 1 100%;
+  margin-top: 0;
+}
+
+#resume a {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+  padding: 1em;
+  background: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+#resume a:hover {
+  background: #2980b9;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
